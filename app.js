@@ -122,5 +122,5 @@ app.get('/api', (req, res) => {
 })
 
 // Start server ----------------------------------
-const PORT = process.env.PORT || 5010;
+const PORT = process.env.MODULES_USERS_API_PORT || 5001;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
